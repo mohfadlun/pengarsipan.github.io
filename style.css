@@ -1,0 +1,182 @@
+* {
+	padding: 0;
+	margin: 0;
+	
+}
+header {
+	height: 70px;
+	 background-color: 	#00BFFF;
+}
+header ul img {
+	display: inline-block;
+	width: 50px;
+	height: 60px;
+	border-radius: 17px;
+}
+
+header li {
+	
+	display: inline-block;
+}
+
+header h3 {
+
+	display: inline-block;
+	float: left;
+	padding: 15px 24px;
+	text-transform: uppercase;
+	
+}
+header h3 a {
+	transition: .3s;
+	font-weight: bold;
+	font-size: 24px;
+}
+header h3 a:hover {
+    color:#DC143C;
+}
+header ul {
+	
+	float: right;
+}
+header ul li {
+	
+	padding:23px;
+	display: inline-block;
+}
+header ul li a:hover {
+	color: #f84744;
+	font-weight: bold;
+}
+header ul li a {
+	transition: ;
+	font-weight: bold;
+	font-size: 16px;
+}
+header ul li a:hover {
+	color: #f84744;
+
+}
+a {
+	text-decoration: none;
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	
+}
+.container::after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.mobile-menu {
+	float: right;
+	display: none;
+	padding: 18px;
+
+}
+.mobile-menu:hover {
+	cursor: pointer;
+}
+#check {
+	display: none;
+}
+.sidebar {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: -300px;
+	width: 300px;
+	background-color: rgba(16, 47, 80, .9);
+	transition: .3s;
+}
+.sidebar ul li a {
+	color: #fff;
+}
+.sidebar ul li {
+	padding: 24px;
+	transition: .3s;
+	transition-property: background-color;
+}
+.sidebar ul li:hover {
+	background-color: #F847;
+}
+#check:checked ~ .sidebar {
+	left: 0;
+}
+@media (max-width: 768px){
+	.mobile-menu {
+		display: block;
+	}
+header ul {
+	display: none;
+}	
+}
+
+.jumbotron {
+
+	background-image: url('img/fadlun2.jpg');
+	background-size: cover;
+	height: 600px;
+	text-align: center;
+}
+
+.jumbotron h1 {
+	color:#fff;
+}
+.jumbotron hr {
+	border-color: #f05f40;
+	width: 80px;
+	border-width:0px;
+}
+
+.jumbotron .lead {
+	 color:#fff;
+}
+.jumbotron .fadlun{
+	color:#000000;
+}
+.jumbotron marquee {
+	margin-top:120px;
+	height: 60;
+	color: #FFFF00;
+	width: 70%;
+	border: 1px solid snow;
+}
+.gambar-bulat li {
+            border-radius:100%;
+            top: 25%;
+            position: absolute;
+        }
+
+}
+
+.jumbotron h1 {
+	color:#fff;
+}
+.jumbotron hr {
+	border-color: #f05f40;
+	width: 60px;
+	border-width:0px;
+}
+
+.jumbotron .lead {
+	 color:#fff;
+}
+.jumbotron .fadlun{
+	color:#000000;
+}
+.jumbotron marquee {
+	margin-top:120px;
+	height: 60;
+	color: #FFFF00;
+	width: 70%;
+	border: 1px solid snow;
+}
+.gambar-bulat li {
+            border-radius:100%;
+            top: 25%;
+            position: absolute;
+        }
